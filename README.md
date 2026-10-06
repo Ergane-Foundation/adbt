@@ -24,7 +24,32 @@
 
 For detailed guides, shortcuts, and troubleshooting, visit the [adbt Documentation Website](https://adbt-tui.vercel.app).
 
----
+## Screenshots
+
+<p align="center">
+  <img src="website/static/img/screenshots/dashboard.png" alt="adbt dashboard listing every screen, with the connected device shown in the header" width="100%" />
+  <br />
+  <b>Dashboard</b>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/device_info.png" alt="Device Info screen" width="100%" /><br /><b>Device Info</b></td>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/app_manager.png" alt="App Manager screen" width="100%" /><br /><b>App Manager</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/file_explorer.png" alt="File Explorer screen" width="100%" /><br /><b>File Explorer</b></td>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/logcat.png" alt="Logcat Viewer screen" width="100%" /><br /><b>Logcat Viewer</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/performance.png" alt="Performance Monitor screen" width="100%" /><br /><b>Performance Monitor</b></td>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/input.png" alt="Input Sender screen" width="100%" /><br /><b>Input Sender</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/intent_tester.png" alt="Intent Tester screen" width="100%" /><br /><b>Intent Tester</b></td>
+    <td width="50%" align="center"><img src="website/static/img/screenshots/port_manager.png" alt="Port Forwarding screen" width="100%" /><br /><b>Port Forwarding</b></td>
+  </tr>
+</table>
 
 ## Features
 
@@ -39,32 +64,6 @@ For detailed guides, shortcuts, and troubleshooting, visit the [adbt Documentati
 - **Input Sender**: Type text and send key events (Back, Home, Recents, arrows, and more) to the device, with an optional live keystroke-forwarding mode.
 - **Intent Tester**: Construct and send custom activity/broadcast intents to test deep links and receiver behavior.
 - **Port Forwarding**: Easily configure forward and reverse network connections between your host and device.
-
-<details>
-<summary><b>Screenshots</b></summary>
-<br />
-
-| Dashboard | Device Info |
-| :---: | :---: |
-| ![Dashboard](website/static/img/screenshots/dashboard.png) | ![Device Info](website/static/img/screenshots/device_info.png) |
-
-| App Manager | File Explorer |
-| :---: | :---: |
-| ![App Manager](website/static/img/screenshots/app_manager.png) | ![File Explorer](website/static/img/screenshots/file_explorer.png) |
-
-| Logcat Viewer | Performance Monitor |
-| :---: | :---: |
-| ![Logcat](website/static/img/screenshots/logcat.png) | ![Performance](website/static/img/screenshots/performance.png) |
-
-| Input Sender | Intent Tester |
-| :---: | :---: |
-| ![Input Sender](website/static/img/screenshots/input.png) | ![Intent Tester](website/static/img/screenshots/intent_tester.png) |
-
-| Port Forwarding | |
-| :---: | :---: |
-| ![Port Forwarding](website/static/img/screenshots/port_manager.png) | |
-
-</details>
 
 ---
 
