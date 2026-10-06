@@ -20,6 +20,7 @@ builds:
 
 archives:
   - formats: [tar.gz]
+    files: [LICENSE, NOTICE, README.md]
     name_template: >-
       {{ .ProjectName }}_
       {{- title .Os }}_
@@ -54,7 +55,7 @@ homebrew_casks:
     
     homepage: "https://github.com/SakshhamTheCoder/adbt"
     description: "A modern, keyboard-driven Android Debug Bridge TUI."
-    license: "MIT"
+    license: "Apache-2.0"
     hooks:
       post:
         install: |
@@ -71,7 +72,7 @@ scoops:
     
     homepage: "https://github.com/SakshhamTheCoder/adbt"
     description: "A modern, keyboard-driven Android Debug Bridge TUI."
-    license: "MIT"
+    license: "Apache-2.0"
 
 # Helper for Linux Packages (DEB, RPM)
 nfpms:
@@ -81,7 +82,7 @@ nfpms:
     homepage: "https://github.com/SakshhamTheCoder/adbt"
     maintainer: "Sakshham Bhagat <sakshhamtg@gmail.com>"
     description: "A modern, keyboard-driven Android Debug Bridge TUI."
-    license: "MIT"
+    license: "Apache-2.0"
     formats:
       - deb
       - rpm
@@ -91,6 +92,8 @@ nfpms:
         dst: /usr/share/doc/adbt/README.md
       - src: ./LICENSE
         dst: /usr/share/doc/adbt/LICENSE
+      - src: ./NOTICE
+        dst: /usr/share/doc/adbt/NOTICE
 
 # Arch Linux User Repository (AUR)
 aurs:
@@ -99,7 +102,7 @@ aurs:
     description: "A modern, keyboard-driven Android Debug Bridge TUI."
     maintainers:
       - "Sakshham Bhagat <sakshhamtg@gmail.com>"
-    license: "MIT"
+    license: "Apache-2.0"
     private_key: "{{ .Env.AUR_KEY }}"
     git_url: "ssh://aur@aur.archlinux.org/adbt-bin.git"
     
@@ -107,13 +110,14 @@ aurs:
     package: |-
       install -Dm755 "./adbt" "${pkgdir}/usr/bin/adbt"
       install -Dm644 "./LICENSE" "${pkgdir}/usr/share/licenses/adbt/LICENSE"
+      install -Dm644 "./NOTICE" "${pkgdir}/usr/share/licenses/adbt/NOTICE"
       install -Dm644 "./README.md" "${pkgdir}/usr/share/doc/adbt/README.md"
 
 # Winget (Windows Package Manager)
 # winget:
 #   - name: adbt
 #     publisher: SakshhamTheCoder
-#     license: MIT
+#     license: Apache-2.0
 #     license_url: "https://github.com/SakshhamTheCoder/adbt/blob/main/LICENSE"
 #     copyright: "Copyright (c) 2026 Sakshham Bhagat"
 #     homepage: "https://github.com/SakshhamTheCoder/adbt"

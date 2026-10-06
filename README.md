@@ -122,4 +122,8 @@ If you encounter connection issues, unauthorized device screens, or missing ADB 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
+
+---
+
+Created by [Sakshham Bhagat](https://github.com/SakshhamTheCoder).
