@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/SakshhamTheCoder/adbt?style=flat-square&color=blue" alt="License" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License: Apache-2.0" /></a>
   <img src="https://img.shields.io/github/v/release/SakshhamTheCoder/adbt?style=flat-square&color=purple" alt="Latest Release" />
   <img src="https://img.shields.io/badge/built%20with-Bubble%20Tea-brightgreen?style=flat-square" alt="Built with Bubble Tea" />
 </p>
