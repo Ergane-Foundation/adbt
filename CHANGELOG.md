@@ -7,7 +7,7 @@ versions may contain breaking changes.
 
 ## [Unreleased]
 
-## [0.2.1] - not released yet
+## [0.2.1] - 2026-10-06
 
 ### Breaking
 
