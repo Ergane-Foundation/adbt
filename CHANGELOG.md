@@ -7,6 +7,8 @@ versions may contain breaking changes.
 
 ## [Unreleased]
 
+## [0.2.1] - not released yet
+
 ### Breaking
 
 - License changed from MIT to Apache-2.0. Releases up to 0.2.0 stay under MIT.
@@ -15,6 +17,12 @@ versions may contain breaking changes.
 
 - Code of conduct, contributing guide, security policy, support guide,
   maintainers list and third-party notices.
+
+### Changed
+
+- Release archives, deb and rpm packages, and the AUR package now include
+  `NOTICE` and `THIRD_PARTY_NOTICES.md` next to `LICENSE`.
+- Commit messages follow Conventional Commits.
 
 ## [0.2.0] - 2026-07-10
 

@@ -50,18 +50,32 @@ For changes to `.goreleaser.yaml`, also run `goreleaser check`.
 
 ## Commit messages
 
-One short line in lower case, in the imperative mood, with no full stop, saying
-what the change does. See `git log` for the style:
+We use [Conventional Commits](https://www.conventionalcommits.org):
 
-- `add connect and disconnect to the devices screen`
-- `keep typing q in forms from quitting the app`
+```
+<type>(<optional scope>): <subject>
+
+<optional body: why the change is needed>
+```
+
+- `type` is one of: `feat`, `fix`, `docs`, `test`, `refactor`, `perf`, `build`,
+  `ci`, `chore`, `style`, `revert`.
+- Useful scopes: `adb`, `ui`, `apps`, `files`, `logcat`, `devices`, `release`,
+  `website`.
+- Subject in the imperative mood, lower case, no full stop, short (the whole
+  first line must stay under 100 characters; aim for 72).
+- Examples:
+  - `feat(devices): add connect and disconnect`
+  - `fix(ui): keep typing q in forms from quitting the app`
+
+Commits before October 2026 use plain one-line messages; that is expected.
 
 ## Branches and pull requests
 
 1. Comment on the issue you want to work on and wait to be assigned, so two
    people do not do the same work.
-2. Fork the repository and create a branch from `main` with a short descriptive
-   name, for example `fix-logcat-pause`.
+2. Fork the repository and create a branch from `main` named
+   `<type>/<short-description>`, for example `fix/logcat-pause`.
 3. Keep the pull request focused on one issue. Link it in the description
    (`Closes #123`).
 4. Say in the description how you tested the change: which screens, which
