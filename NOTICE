@@ -1,2 +1,7 @@
 adbt
 Copyright 2026 Sakshham Bhagat
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Release binaries include third-party Go modules that keep their own licenses.
+See THIRD_PARTY_NOTICES.md.

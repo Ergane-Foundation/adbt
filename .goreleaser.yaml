@@ -20,7 +20,7 @@ builds:
 
 archives:
   - formats: [tar.gz]
-    files: [LICENSE, NOTICE, README.md]
+    files: [LICENSE, NOTICE, THIRD_PARTY_NOTICES.md, README.md]
     name_template: >-
       {{ .ProjectName }}_
       {{- title .Os }}_
@@ -94,6 +94,8 @@ nfpms:
         dst: /usr/share/doc/adbt/LICENSE
       - src: ./NOTICE
         dst: /usr/share/doc/adbt/NOTICE
+      - src: ./THIRD_PARTY_NOTICES.md
+        dst: /usr/share/doc/adbt/THIRD_PARTY_NOTICES.md
 
 # Arch Linux User Repository (AUR)
 aurs:
@@ -111,6 +113,7 @@ aurs:
       install -Dm755 "./adbt" "${pkgdir}/usr/bin/adbt"
       install -Dm644 "./LICENSE" "${pkgdir}/usr/share/licenses/adbt/LICENSE"
       install -Dm644 "./NOTICE" "${pkgdir}/usr/share/licenses/adbt/NOTICE"
+      install -Dm644 "./THIRD_PARTY_NOTICES.md" "${pkgdir}/usr/share/licenses/adbt/THIRD_PARTY_NOTICES.md"
       install -Dm644 "./README.md" "${pkgdir}/usr/share/doc/adbt/README.md"
 
 # Winget (Windows Package Manager)

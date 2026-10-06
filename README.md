@@ -26,7 +26,7 @@ For detailed guides, shortcuts, and troubleshooting, visit the [adbt Documentati
 
 ---
 
-## ⚡ Core Features
+## Features
 
 - **Device Management**: Real-time connected device detection, wireless pairing over IP/port/PIN, and automatic selection when a single device is attached.
 - **Device Info**: Model, serial, Android version, battery, storage, screen size/density, and IP address, plus Wi-Fi and screen toggles and reboot controls (device, recovery, bootloader).
@@ -41,7 +41,7 @@ For detailed guides, shortcuts, and troubleshooting, visit the [adbt Documentati
 - **Port Forwarding**: Easily configure forward and reverse network connections between your host and device.
 
 <details>
-<summary><b>📷 View Screenshots Gallery</b></summary>
+<summary><b>Screenshots</b></summary>
 <br />
 
 | Dashboard | Device Info |
@@ -68,7 +68,7 @@ For detailed guides, shortcuts, and troubleshooting, visit the [adbt Documentati
 
 ---
 
-## 📦 Quick Installation
+## Installation
 
 ### Homebrew (macOS / Linux)
 ```bash
@@ -94,7 +94,7 @@ For manual binary downloads (`.deb`, `.rpm`, or generic archives), check the [Re
 
 ---
 
-## ⌨️ Essential Navigation
+## Usage
 
 Once installed, plug in your device and run:
 ```bash
@@ -114,16 +114,22 @@ For the full set of module-specific hotkeys (App Manager, File Explorer, Logcat,
 
 ---
 
-## 🛠️ Troubleshooting & Support
+## Troubleshooting and support
 
-If you encounter connection issues, unauthorized device screens, or missing ADB paths:
-- Consult the [Troubleshooting & FAQs Guide](https://adbt-tui.vercel.app/docs/troubleshooting).
-- Open an issue on our [GitHub Issue Tracker](https://github.com/SakshhamTheCoder/adbt/issues).
+If you run into connection issues, unauthorized device screens, or a missing `adb`:
+- Read the [troubleshooting guide](https://adbt-tui.vercel.app/docs/troubleshooting).
+- See [SUPPORT.md](SUPPORT.md) for where to ask questions and report bugs.
+- Report security problems privately, as described in [SECURITY.md](SECURITY.md).
 
-## 📄 License
+## Contributing
 
-This project is licensed under the [Apache License 2.0](LICENSE).
+Contributions are welcome, from documentation fixes to new screens. Start with
+[CONTRIBUTING.md](CONTRIBUTING.md) and look for issues labelled
+`good first issue`. Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
----
+## License
+
+[Apache License 2.0](LICENSE). See [NOTICE](NOTICE) and
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party components.
 
 Created by [Sakshham Bhagat](https://github.com/SakshhamTheCoder).
