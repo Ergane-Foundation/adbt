@@ -24,7 +24,11 @@ jobs:
       - uses: goreleaser/goreleaser-action@v6
         with:
           distribution: goreleaser
-          version: latest
+          # Pinned to GoReleaser v2 (per #35). `latest` would silently pick up
+          # v3+ on release day, which has shipped breaking config changes in
+          # the past — pinning keeps releases reproducible until we deliberately
+          # bump it.
+          version: v2
           args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
